@@ -5,7 +5,7 @@
 from metodos import load_models, predict
 
 vectoriser, LRmodel = load_models()
-mensaje = "I hate twitter" 
+mensaje = "fear"
 print("%s - %s" % (mensaje, 
             predict(vectoriser, LRmodel, mensaje)
             ))
